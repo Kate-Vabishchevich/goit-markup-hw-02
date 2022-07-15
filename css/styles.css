@@ -1,0 +1,233 @@
+
+:root {
+--head-text-color: #212121;
+--main-text-color: #757575;
+--accent-color: #2196F3;
+--background-color: #2F303A;
+--main-light-color: #FFFFFF;
+--btn-text-color: #FFF;
+--btn-bg-color: #2196F3;
+--btn-second-color: #212121;
+--btn-second-bgc: #F5F4FA;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--main-light-color);
+    color: var(--main-text-color);
+}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo-accent {
+    color: var(--accent-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+
+.logo-color {
+    color: var(--logo-color);
+    
+}
+
+/*-------HEADER--------*/
+
+.header-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--head-text-color);
+}
+
+.header-link:hover,
+.header-link:focus {
+        color: var(--accent-color);
+}
+
+/*----------SIDE-------*/
+
+.side-link, .basement-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--main-text-color);
+}
+
+.side-link:hover,
+.side-link:focus {
+    color: var(--accent-color);
+}
+
+/*----------HERO-------*/
+
+.hero {
+    background-color: var(--background-color);
+}
+
+.hero-title {
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36cm;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: var(--main-light-color);
+}
+
+.hero-btn {
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+        color: var(--btn-text-color);
+        background-color: var(--btn-bg-color);
+        cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    color: #188CE8;
+}
+
+/*---------FEATURES-------*/
+
+.features-title {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--head-text-color);
+}
+
+.features-desc {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-text-color);
+}
+
+/*---------DOING,---TEAM-------*/
+
+.doing-title, .team-title {
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--head-text-color);
+}
+
+/*---------TEAM-------*/
+
+.team-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--head-text-color);
+}
+
+.team-desc {
+        font-size: 16px;
+        line-height: 1.9;
+        text-align: center;
+        letter-spacing: 0.03em;
+}
+
+/*---------BASEMENT-------*/
+
+.basement {
+    background-color: var(--background-color);
+}
+
+.logo-bs {
+    font-family: 'Raleway', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--main-light-color);
+}
+
+.add {
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: var(--main-light-color);
+}
+
+                /*PORTFOLIO*/
+
+/*---------BTN-------*/
+
+.btn-style {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: var(--btn-second-color);
+        background-color: var(--btn-second-bgc);
+}
+
+.btn-style:hover,
+.btn-style:focus {
+    color: var(--btn-text-color);
+    background-color: var(--btn-bg-color);
+}
+
+/*---------PROJECT-------*/
+
+.project-title {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--head-text-color);
+}
+
+.project-text {
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.03em;
+        color: var(--main-text-color);
+}
