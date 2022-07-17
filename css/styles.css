@@ -30,6 +30,7 @@ body {
     color: var(--main-text-color);
 }
 
+
 .logo {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
@@ -88,6 +89,10 @@ body {
     color: var(--accent-color);
 }
 
+.current {
+    color: var(--accent-color);
+}
+
 /*----------HERO-------*/
 
 .hero {
@@ -120,7 +125,7 @@ body {
 
 .hero-btn:hover,
 .hero-btn:focus {
-    color: #188CE8;
+    background-color: #188CE8;
 }
 
 /*---------FEATURES-------*/
@@ -154,6 +159,10 @@ body {
 
 /*---------TEAM-------*/
 
+.team {
+    background-color: var(--btn-second-bgc);
+}
+
 .team-name {
     font-weight: 500;
     font-size: 16px;
@@ -174,6 +183,20 @@ body {
 
 .basement {
     background-color: var(--background-color);
+}
+
+.basement-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
+
+.basement-link:hover,
+.basement-link:focus {
+    color: var(--accent-color);
 }
 
 .logo-bs {
